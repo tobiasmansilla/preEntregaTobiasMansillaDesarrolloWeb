@@ -1,0 +1,10 @@
+/*
+bloque de codigo que puede modularizarse a través de parámetros.
+Un mixin es el equivalente a una función en js.
+ej: @mixin nombreclave($direction,$wrap,$justify,$align,$gap) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+*/

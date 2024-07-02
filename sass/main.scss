@@ -1,0 +1,49 @@
+/*
+VARIABLES: $nombredelavariable: lightblue;
+
+Comando para copiar una sección dentro de otra:
+@extend .nombredelaseccion
+Comando para copiar un bloque de codigo en otro:
+@include nombreclave(row,nowrap,none,none,10px);
+(VALORES SACADOS DE MIXIN)
+
+Primero se llama a utilities
+ej: @import "./utilities/funciones"
+ej: @import "./utilities/mapas"
+ej: @import "./utilities/mixin"
+
+Segundo se llama a base
+ej: @import "./base/reset"
+
+Tercero se llama a layout
+ej: @import "./layout/footer"
+
+Cuarto se llama a componentes
+ej: @import "./components/navbar"
+
+SIEMPRE VAN ÚLTIMO LOS MEDIAQUERY
+(desktop first => los MQ son en orden decrecientes) 
+(mobile first => los MQ son en orden crecientes) 
+ej: @import "./layout/mediaQ/media320"
+*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./components/navbar";
+@import "./components/card";
+@import "./components/bootstrap";
+@import "./layout/mediaQ/mediaq";
+
+$color-body:rgba(0, 0, 0, 0.638);
+$color-border: rgba(255, 0, 0, 0.638);
+$color-navbar: white;
+
+*{
+    font-family: "Work Sans", sans-serif;
+    margin: 3;
+    padding: 3;
+}
+body{
+    background-color: $color-body;
+}

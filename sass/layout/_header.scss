@@ -1,0 +1,12 @@
+$color-border: rgba(255, 0, 0, 0.638);
+
+.header-index{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    nav{
+        background-color: rgb(30, 30, 30);
+        border: 2px solid $color-border;
+        border-radius: 1cm;
+    }
+}

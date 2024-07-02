@@ -1,0 +1,18 @@
+/*
+Se utiliza este archivo para mapear valores, en base a Claves y Valores.
+
+ej: $colores:(
+    color1: red,
+    color2: blue,
+    color3: black
+);
+
+ej: $medidas:(
+    sm: 16px,
+    m:24px,
+    lg:60px
+);
+
+Para usar esto utilizar el siguiente comando: map-get
+ej. background-color: map-get($colores, color3);
+*/

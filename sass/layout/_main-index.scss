@@ -1,0 +1,131 @@
+.cards-index-section{
+    article{
+        div{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.cards-index-article{
+    div{
+        h2{
+            font-size: 40px;
+        }
+        h3{
+            font-size: 30px
+        }
+        button{
+            font-size: 30px;
+        }
+        span{
+            font-size: 30px;
+        }
+    }
+}
+
+.cards2-index-section{
+    margin-top: 10px;
+}
+
+.cards2-index-article{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 15px;
+    background-color: rgb(20,20,20);
+}
+
+.cards2-index-paragraph{
+    font-size: 35px;
+}
+
+/**/
+$color-cards:rgb(20,20,20);
+$color-button: rgb(185,0,0);
+$color-button-transition: rgba(255, 255, 255, 0.856);
+/**/
+
+.cards2-button{
+    font-size: 40px;
+    font-weight: bold;
+    background: black;
+    position: relative;
+    border: none;
+    outline: none;
+    color: $color-cards;
+    background-color: $color-button-transition;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+        color: $color-button;
+    }
+}
+
+/* nosotros.html*/
+
+.nosotros-info{
+    h2{
+        color:white;
+        font-size: 40px;
+    }
+    h3{
+        color: $color-cards;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    h4{
+        color: $color-cards;
+        font-size: 40px;
+        padding-left: 245px;
+    }
+}
+
+.nosotros-flex{
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    h3{
+        color: white;
+        width: 60%;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.nosotros-faq{
+    padding: 15px;
+    gap: 15px;
+    div{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    h2{
+        color: $color-cards;
+    }
+    article{
+        color:white;
+        font-size: 20px;
+    }
+}
+
+.nosotros-prefooter{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    background-color: $color-cards;
+}
+
+.nosotros-main{
+    padding: 5px 20px 5px 20px;
+}
