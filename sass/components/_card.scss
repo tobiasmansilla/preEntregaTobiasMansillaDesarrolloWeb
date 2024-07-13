@@ -171,8 +171,8 @@ $color-price:#ff4141;
 
 .contactos-card{
     display: flex;
-    justify-content: space-around;
-    align-items:baseline;
+    justify-content: space-between;
+    align-items:center;
     gap: 30px;
     font-size: large;
     width: 85%;

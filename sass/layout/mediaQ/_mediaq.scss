@@ -1,7 +1,11 @@
-@media(max-width:1750px){
+@media(max-width:1720px){
     .contactos-card{
         width: auto;
         padding-right: 140px;
+    }
+    .navbar-below-bs{
+        height: fit-content;
+        text-align: center;
     }
 }
 
@@ -17,18 +21,12 @@
 }
 
 @media(max-width:1365px){
-    .navbar-bs{
-        flex-direction: column;
-        width: 1000px;
-        height: 500px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        a{
-            li{
-                font-size: 25px;
-            }
+.navbar-bs{
+    a{
+        li{
+            font-size: 25px;
         }
+    }
     h2{
         font-size: 22px;
     }
@@ -101,12 +99,19 @@
 @media(max-width:1432px){
     .cards2-index-article{
         h2{
-            font-size: 22px;
+            font-size: 50px;
         }
         img{
-            height: 345px;
-            width: 345px;
+            height: 445px;
+            width: 445px;
         }
+    }
+}
+
+@media(max-width:1500){
+    .navbar-bs{
+        flex-direction: column;
+        height: fit-content;
     }
 }
 
@@ -205,6 +210,11 @@
         font-size: 30px;
     }
 }
+@media(max-width:990px){
+    .navbar-bs{
+        flex-direction: column;
+    }
+}
 
 @media(max-width:900px){
     .navbar-below{
@@ -250,15 +260,30 @@
     }
 }
 
-@media(max-width:775px){
-    .navbar-below-bs{
-        width: 100%;
-        font-size: 10px;
-        height: 90px;
-    }
-}
-
 @media(max-width:700px){
+    .cards-index-section{
+        height: 100%;
+        width: 100%;
+        article{
+            height: 100%;
+            width: 100%;
+            div{
+                height: 100%;
+                width: 100%;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .cards-below{
+        div{
+            font-size: fit-content;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
     .cards2-index-article{
         display: flex;
         flex-direction: column;
@@ -275,8 +300,8 @@
             font-size: 13px;
         }
         img{
-            height: 350px;
-            width: 350px;
+            height: 100%;
+            width: 100%;
         }
         div{
             display: flex;
@@ -286,17 +311,13 @@
     .cards-index-article{
         display: flex;
         flex-direction: column;
-    img{
-        height: 350px;
-        width: 350px;
-    }
-    h2{
-        font-size: 33px;
-    }
-    h3{
-        font-size: 23px;
-    }
-    div{
+        h2{
+            font-size: 33px;
+        }
+        h3{
+            font-size: 23px;
+        }
+        div{
         p{
             font-size: 13px;
         }
@@ -311,11 +332,25 @@
     }
 }
 
-@media(max-width:418px){
+@media(max-width:438px){
+    .nosotros-info{
+        div{
+            h4{
+                font-size: fit-content;
+            }
+        }
+    .nosotros-flex{
+        h3{
+            text-align:justify;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    }
     .navbar-below{
         width: 100%;
         height: 65px;
-        font-size: 1px;
+        font-size: fit-content;
     }
     .cards-index-article{
         img{
