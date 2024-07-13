@@ -13,6 +13,10 @@ $color-price:#ff4141;
     color: white;
     margin: 15px;
     gap: 5px;
+    img{
+        width: 350px;
+        height: 350px;
+    }
     }
 }
 
@@ -52,6 +56,10 @@ $color-price:#ff4141;
             font-size: 50px;
             font-weight: bold; text-shadow: 2px 2px 2px #747474;
         }
+        img{
+            width: 400px;
+            height: 400px;
+        }
 }
 
 .cards-index-article-tienda{
@@ -63,9 +71,6 @@ $color-price:#ff4141;
     margin: 15px;
     gap: 5px;
     background-color: $color-cards;
-    img{
-        width: 100%;
-    }
     div{
         align-self: center;
         font-size: 15px;
@@ -176,5 +181,11 @@ $color-price:#ff4141;
     article{
         background-color: white;
         padding: 15px;
+        div{
+            img{
+                width: 480px;
+                height: 750px;
+            }
+        }
     }
 }
